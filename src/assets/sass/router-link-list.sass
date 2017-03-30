@@ -1,0 +1,34 @@
+.router-link-list
+  list-style: none
+  text-align: left
+  padding-bottom: 10px
+  li
+    border-bottom: dashed 1px $primer-color
+    position: relative
+    &:hover
+      border-bottom: dashed 1px $background-color
+      background-color: $primer-color
+      a
+        display: block
+        padding: 10px
+        color: $background-color
+      span
+        position: absolute
+        right: 5%
+        top: 20%
+        background-color: $background-color !important
+        color: $primer-color
+    a
+      color: $primer-color
+      padding: 10px
+      display: block
+    span
+      position: absolute
+      right: 5%
+      top: 20%
+      background-color: $primer-color !important
+      color: $background-color
+
+
+.router-link-list-tag
+  float: right
